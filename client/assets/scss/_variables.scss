@@ -1,0 +1,157 @@
+/**
+  * Variables
+  */
+$purple: #682f73;
+
+
+$pink:#e0457b;
+$light-pink:#F2ACB9;
+$yellow:#F2CD00;
+$orange:#ED8B00;
+$dark-green:#97D700;
+$green:#C5E86C;
+$blue-green:#00bab9;
+$blue: #00bce3;
+$light-blue:#74D1EA;
+$purple:#682f73;
+/*what is */ $light-urple:#BA9CC5;
+$grey: #444444;
+$light-grey:#999999;
+
+$facebook-blue:#3B589A;
+$twitter-blue:#34aade;
+$webinar-yellow:#FFC700;
+$instagram-blue:#5080a6;
+$youtube-red:#FE3432;
+$pinterest-red:#cd222a;
+
+//screen sizes
+$xlrg-screen:1020px;
+$lrg-screen:960px;
+$m-screen:640px;
+$s-screen:570px;
+$xs-screen:500px;
+
+
+/*
+===============================================================
+Colors
+===============================================================
+*/
+
+.orange{
+    color:$orange !important;
+}
+
+.purple{
+    color:$purple !important;
+}
+
+.pink{
+    color:$pink !important;
+}
+
+.green{
+    color:$green !important;
+}
+
+.dark-green{
+    color:$dark-green !important;
+}
+
+.blue{
+    color:$blue !important;
+}
+
+.grey{
+    color:$grey !important;
+}
+
+.light-grey{
+    color:$light-grey !important;
+}
+
+.white{
+    color:#ffffff !important;
+}
+
+.facebook-blue{
+    color:$facebook-blue;
+}
+
+.twitter-blue{
+    color:$twitter-blue;
+}
+
+.webinar-yellow{
+    color:$webinar-yellow;
+}
+
+.youtube-red{
+    color:$youtube-red;
+}
+
+
+/*
+===============================================================
+Background colors
+===============================================================
+*/
+
+.orange-bg{
+    background-color:$orange !important;
+}
+
+.purple-bg{
+    background-color:$purple !important;
+}
+
+.pink-bg{
+    background-color:$pink !important;
+}
+
+.green-bg{
+    background-color:$green !important;
+}
+
+.darkgreen-bg{
+    background-color:$dark-green !important;
+}
+
+.lightblue-bg{
+    background-color:$light-blue !important;
+}
+
+.blue-bg{
+    background-color:$blue !important;
+}
+
+.white-bg{
+    background-color:#ffffff !important;
+}
+
+//event archive
+
+.facebook-bg{
+    background-color:$facebook-blue !important;
+}
+
+.twitter-bg{
+    background-color:$twitter-blue !important;
+}
+
+.webinar-bg{
+    background-color:$webinar-yellow !important;
+}
+
+.youtube-bg{
+    background-color:$youtube-red;
+}
+
+
+.btn {
+          z-index: 2;
+          position: relative;
+          color:#fff;
+          font-size:1.4rem;
+        }

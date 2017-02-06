@@ -1,0 +1,22 @@
+
+  <p>The delete user and user index api routes are restricted to users with the 'admin' role.</p>
+  <!-- Single button -->
+   <div class="btn-group" uib-dropdown is-open="status.isopen">
+     <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
+       Filter by {{users.userFilt.role}} <span class="caret"></span>
+     </button>
+     <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+       <li role="menuitem" ng-repeat="role in users.userRoles" ng-click="users.selectRole(role)"><a href="#">{{role}}</a></li>
+     </ul>
+   </div>
+      <ul class="list-group user-list">
+        <li class="list-group-item" ng-repeat="user in users.users | filter: users.userFilt">
+    	    <div class="user-info">
+            {{user.role}}
+    	        <strong>{{user.name}}</strong><br>
+    	        <span class="text-muted">{{user.email}}</span>
+    	    </div>
+            <a ng-click="admin.delete(user)" class="trash"><span class="fa fa-trash fa-2x"></span></a>
+        </li>
+      </ul>
+      <ui-view></ui-view>
